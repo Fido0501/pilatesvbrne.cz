@@ -1,0 +1,128 @@
+/*CSS pro pilatesvbrne-mobil*/
+:root {
+    --pri-color: #FFFFFF;
+    --sec-color: #9ee0ff;
+    --ter-color: #009EE3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    /*Main*/
+
+    /*Part-1*/
+
+    .con_1{
+        background-image: url("/img/main.jpg");
+        background-color: #cccccc; 
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .txt1{
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Part-2*/
+
+    .con_2{
+
+    }
+
+    .header1{
+
+    }
+
+    .txt2{
+
+    }
+
+    .img1{
+
+    }
+
+    /*Part-3*/
+
+    .con_3{
+
+    }
+
+    .header2{
+
+    }
+
+    .txt3{
+
+    }
+
+    .img2{
+
+    }
+
+    /*Part-4*/
+
+    .con_4{
+
+    }
+
+    .header3{
+
+    }
+
+    .txt4{
+        
+    }
+
+    .img3{
+
+    }
+
+    /*Part-5*/
+
+    .background{
+
+    }
+
+    .header4{
+
+    }
+
+    .images1{
+
+    }
+
+    .header5{
+
+    }
+
+    .images2{
+
+    }
+
+    /*Button*/
+
+    .button{
+
+    }
+
+    /*Footer*/
+
+    footer{
+
+    }
+
+    .dividing_line{
+
+    }
+
+    .copyright{
+        
+    }
+}

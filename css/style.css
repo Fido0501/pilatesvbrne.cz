@@ -1,11 +1,21 @@
 /*CSS pro pilatesvbrne*/
+:root {
+    --pri-color: #FFFFFF;
+    --sec-color: #9ee0ff;
+    --ter-color: #009EE3;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body{
 
 }
 
 /*Navigace-header*/
+/* Možná ani navigace nebude xd */
 
 nav{
 
