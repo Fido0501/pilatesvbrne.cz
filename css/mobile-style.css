@@ -1,128 +1,159 @@
 /*CSS pro pilatesvbrne-mobil*/
 :root {
     --pri-color: #FFFFFF;
-    --sec-color: #9ee0ff;
+    --sec-color: #b3e7ff;
     --ter-color: #009EE3;
 }
 
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
     /*Main*/
+    .logo {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        width: 100px;
+    }
 
     /*Part-1*/
-
-    .con_1{
-        background-image: url("/img/main.jpg");
-        background-color: #cccccc; 
-        width: 100%;
+    .con_1 {
+        background-image: url("/img/img/main.png");
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 250px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        text-align: center;
-    }
-
-    .txt1{
         display: flex;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .txt1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        width: 250px;
+        text-align: center;
+        color: var(--pri-color);
+        font-size: 2rem;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--ter-color);
+        padding: 10px 15px 10px 15px;
+        font-size: 1rem;
+        color: var(--pri-color);
+        margin-top: 2rem;
+        border-radius: 5px;
     }
 
     /*Part-2*/
-
-    .con_2{
-
+    /* Cards */
+    .cards {
+        margin-top: 2rem;
+        gap: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
-    .header1{
-
+    .card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--sec-color);
+        border-radius: 20px;
+        height: 350px;
+        width: 250px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
 
-    .txt2{
-
+    .card_hd {
+        margin-top: 2rem;
+        font-size: 1.5rem;
     }
 
-    .img1{
+    .card_txt {
+        text-align: center;
+        width: 80%;
+        margin-top: 1rem;
+    }
 
+    .card_img {
+        margin-top: 1rem;
+        width: 100px;
     }
 
     /*Part-3*/
-
-    .con_3{
-
+    .wave {
+        margin-top: 4rem;
+        margin-left: -4rem;
+        width: 800px;
     }
 
-    .header2{
-
+    .background {
+        margin-top: -1rem;
+        background-color: var(--sec-color);
+        width: 100%;
+        height: 400px;
     }
 
-    .txt3{
-
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
     }
 
-    .img2{
+    .mySlides {display:none;}
 
-    }
-
-    /*Part-4*/
-
-    .con_4{
-
-    }
-
-    .header3{
-
-    }
-
-    .txt4{
-        
-    }
-
-    .img3{
-
-    }
-
-    /*Part-5*/
-
-    .background{
-
-    }
-
-    .header4{
-
-    }
-
-    .images1{
-
-    }
-
-    .header5{
-
-    }
-
-    .images2{
-
-    }
-
-    /*Button*/
-
-    .button{
-
+    .button2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--ter-color);
+        padding: 10px 15px 10px 15px;
+        font-size: 1rem;
+        color: var(--pri-color);
+        margin: auto;
+        margin-top: 2rem;
+        width: 80px;
+        border-radius: 5px;
     }
 
     /*Footer*/
 
     footer{
-
+        text-align: center;
+        background-color: var(--ter-color);
+        color: var(--pri-color);
     }
 
-    .dividing_line{
+    .kontakt{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
 
+    .devider {
+        height: 1px;
+        background-color: #cacaca;
     }
 
     .copyright{
-        
+        padding: 10px;
+        font-size: 0.75rem;
     }
 }
