@@ -34,13 +34,14 @@ nav{
     background-image: url("../img/img/main.png");
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 .shadow{
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -56,69 +57,71 @@ nav{
 
 /*Part-2*/
 
+.cards_big_container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
 .cards{
     margin-top:4rem;
-    width: 100%;
+    width: 70%;
     height: fit-content;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 2rem; 
+    gap: 2rem;
+    justify-content: center;
 }
 
 .card{
-    width: 500px;
-    height: 690px;
-    background-color:rgba(158, 224, 255, 0.3);
+    width: 350px;
+    height: 494px;
+    background-color: var(--sec-color);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     
 }
 
 .card_txt{
     text-align: center;
-    font-size: 32px;
-    margin-top: 1rem;
-    padding: 30px;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-left:30px;
+    padding-right:30px;
+
 }
 
 .card_hd{
         font-family: Arial;
         text-align: center;
         font-weight: 700;
-        margin-top: 3rem;
-        font-size: 49px;
+        margin-top: 2rem;
+        font-size: 35px;
 
       
 }
 .card_img{
    align-self: center;
 }
-#swalscinkou{
-    width:40%;
-    height: 30%;
-}
-#intenet{
-    margin-top: 2rem;
-    width:30%;
-    height: 25%;
-}
+
 
 /*Part-3*/
 .wave{
-    margin-top: 4rem;
+    margin-top: 7rem;
     width: 100%;
     margin-bottom: 0;
     font-size: 0;
 }
 
 .background{
-    margin-top: 0;
+    margin-top: -4px;
     width: 100%;
     height: 800px;
-    background-color: rgba(0, 158, 227, 0.3);
+    background-color: var(--sec-color);
 }
 
 
@@ -138,6 +141,7 @@ nav{
     justify-content: center;
     cursor: pointer;
     -webkit-user-select: none;
+    margin-bottom: 1rem;
 }
 .button2{
     width: 120px;
@@ -147,12 +151,11 @@ nav{
     color: white;
     font-size: 24px;
     font-family: arial;
-    display: none;
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
+    text-align:center;
+    line-height: 60px;
     cursor: pointer;
     -webkit-user-select: none;
+    margin: auto;
 }
 /*Footer*/
 
