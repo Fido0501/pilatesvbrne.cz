@@ -40,15 +40,6 @@ nav{
     flex-direction: column;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
-.shadow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5rem;
-}
-
 .txt1{
     font-family: Arial;
     color: white;
