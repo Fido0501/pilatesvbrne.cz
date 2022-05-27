@@ -13,245 +13,148 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
-    /*Main*/
-    .logo {
-        position: absolute;
-        top: 5px;
-        left: 10px;
-        width: 100px;
-    }
-
-    /*Part-1*/
-    .con_1 {
-        background-image: url("../img/img/main.png");
-        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../img/img/main.png");
-        height: 250px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    }
-
-    .txt1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2rem;
-        width: 250px;
-        text-align: center;
-        color: var(--pri-color);
-        font-size: 2rem;
-    }
-
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--ter-color);
-        padding: 10px 15px 10px 15px;
-        font-size: 1rem;
-        color: var(--pri-color);
-        margin-top: 2rem;
-        border-radius: 5px;
-    }
-
-    /*Part-2*/
-    /* Cards */
-    .cards {
-        margin-top: 2rem;
-        gap: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .card {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        background-color: var(--sec-color);
-        border-radius: 20px;
-        height: 350px;
-        width: 250px;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    }
-
-    .card_hd {
-        margin-top: 2rem;
-        font-size: 1.5rem;
-    }
-
-    .card_txt {
-        text-align: center;
-        width: 80%;
-        margin-top: 1rem;
-    }
-
-    .card_img {
-        margin-top: 1rem;
-        width: 100px;
-    }
-
-    /*Part-3*/
-    .wave {
-        margin-top: 4rem;
-        margin-left: -4rem;
-        width: 800px;
-    }
-
-    .background {
-        margin-top: -1rem;
-        background-color: var(--sec-color);
-        width: 100%;
-        height: 400px;
-    }
-
-    .header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5rem;
-    }
-
-    .mySlides {display:none;}
-
-    .button2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--ter-color);
-        padding: 10px 15px 10px 15px;
-        font-size: 1rem;
-        color: var(--pri-color);
-        margin: auto;
-        margin-top: 2rem;
-        width: 80px;
-        border-radius: 5px;
-    }
-
-    /*Footer*/
-
-    footer{
-        text-align: center;
-        background-color: var(--ter-color);
-        color: var(--pri-color);
-    }
-
-    .kontakt{
-        margin-top: 1rem;
-        font-size: 1rem;
-    }
-
-    .devider {
-        height: 1px;
-        background-color: #cacaca;
-    }
-
-    .copyright{
-        padding: 10px;
-        font-size: 0.75rem;
-    }
-
-    /**/
-    body {
-        font-family: Arial;
-        margin: 0;
-      }
-      
-      * {
-        box-sizing: border-box;
-      }
-      
-      img {
-        vertical-align: middle;
-      }
-      
-      /* Position the image container (needed to position the left and right arrows) */
-      .container {
-        position: relative;
-      }
-      
-      /* Hide the images by default */
-      .mySlides {
-        display: none;
-      }
-      
-      /* Add a pointer when hovering over the thumbnail images */
-      .cursor {
-        cursor: pointer;
-      }
-      
-      /* Next & previous buttons */
-      .prev,
-      .next {
-        cursor: pointer;
-        position: absolute;
-        top: 40%;
-        width: auto;
-        padding: 16px;
-        margin-top: -50px;
-        color: white;
-        font-weight: bold;
-        font-size: 20px;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-        -webkit-user-select: none;
-      }
-      
-      /* Position the "next button" to the right */
-      .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-      }
-      
-      /* On hover, add a black background color with a little bit see-through */
-      .prev:hover,
-      .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-      }
-      
-      /* Number text (1/3 etc) */
-      .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-      }
-      
-      /* Container for image text */
-      .caption-container {
-        text-align: center;
-        background-color: #222;
-        padding: 2px 16px;
-        color: white;
-      }
-      
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      
-      /* Six columns side by side */
-      .column {
-        float: left;
-        width: 16.66%;
-      }
-      
-      /* Add a transparency effect for thumnbail images */
-      .demo {
-        opacity: 0.6;
-      }
-      
-      .active,
-      .demo:hover {
-        opacity: 1;
-      }
+/*Main*/
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 100px;
 }
+
+/*Part-1*/
+.con_1 {
+    background-image: url("../img/img/main.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../img/img/main.png");
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.txt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 250px;
+    text-align: center;
+    color: var(--pri-color);
+    font-size: 2rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ter-color);
+    padding: 10px 15px 10px 15px;
+    font-size: 1rem;
+    color: var(--pri-color);
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+/*Part-2*/
+/* Cards */
+.cards {
+    margin-top: 2rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--sec-color);
+    border-radius: 20px;
+    height: 350px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card_hd {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.card_txt {
+    text-align: center;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.card_img {
+    margin-top: 1rem;
+    width: 100px;
+}
+
+/*Part-3*/
+.wave {
+    margin-top: 4rem;
+    margin-left: -4rem;
+    width: 800px;
+}
+
+.background {
+    margin-top: -1rem;
+    background-color: var(--sec-color);
+    width: 100%;
+    height: 400px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.mySlides {display:none;}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ter-color);
+    padding: 10px 15px 10px 15px;
+    font-size: 1rem;
+    color: var(--pri-color);
+    margin: auto;
+    margin-top: 2rem;
+    width: 80px;
+    border-radius: 5px;
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    background-color: var(--ter-color);
+    color: var(--pri-color);
+}
+
+.kontakt{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.devider {
+    height: 1px;
+    background-color: #cacaca;
+}
+
+.copyright{
+    padding: 10px;
+    font-size: 0.75rem;
+}
+
+/**/
