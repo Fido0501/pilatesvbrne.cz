@@ -22,99 +22,138 @@ nav{
 }
 
 /*Main*/
+.logo{
+    display: none;
+}
 
 /*Part-1*/
 
 .con_1{
+    width: 100%;
+    height: 850px;
+    background-image: url("../img/img/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
+.shadow{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
 }
 
 .txt1{
-
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    font-size: 90px;
 }
 
 /*Part-2*/
 
-.con_2{
-
+.cards{
+    margin-top:4rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem; 
 }
 
-.header1{
-
-}
-
-.txt2{
-
-}
-
-.img1{
-
-}
-
-/*Part-3*/
-
-.con_3{
-
-}
-
-.header2{
-
-}
-
-.txt3{
-
-}
-
-.img2{
-
-}
-
-/*Part-4*/
-
-.con_4{
-
-}
-
-.header3{
-
-}
-
-.txt4{
+.card{
+    width: 500px;
+    height: 690px;
+    background-color:rgba(158, 224, 255, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     
 }
 
-.img3{
-
+.card_txt{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 1rem;
+    padding: 30px;
 }
 
-/*Part-5*/
+.card_hd{
+        font-family: Arial;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 3rem;
+        font-size: 49px;
+
+      
+}
+.card_img{
+   align-self: center;
+}
+#swalscinkou{
+    width:40%;
+    height: 30%;
+}
+#intenet{
+    margin-top: 2rem;
+    width:30%;
+    height: 25%;
+}
+
+/*Part-3*/
+.wave{
+    margin-top: 4rem;
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 0;
+}
 
 .background{
-
+    margin-top: 0;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 158, 227, 0.3);
 }
 
-.header4{
 
-}
-
-.images1{
-
-}
-
-.header5{
-
-}
-
-.images2{
-
-}
 
 /*Button*/
 
 .button{
-
+    width: 120px;
+    height: 60px;
+    background-color: #009EE3;
+    border-radius:20px;
+    color: white;
+    font-size: 24px;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-user-select: none;
 }
-
+.button2{
+    width: 120px;
+    height: 60px;
+    background-color: #009EE3;
+    border-radius:20px;
+    color: white;
+    font-size: 24px;
+    font-family: arial;
+    display: none;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    cursor: pointer;
+    -webkit-user-select: none;
+}
 /*Footer*/
 
 footer{
