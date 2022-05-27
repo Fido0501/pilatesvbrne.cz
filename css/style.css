@@ -30,11 +30,8 @@ nav{
 .con_1 {
     background-image: url("../img/img/main.png");
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../img/img/main.png");
-<<<<<<< HEAD
     height: 850px;
     background-position: center;
-=======
->>>>>>> d7cca73e5c4d4d895ecaf02ad21682a237c4c679
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -42,12 +39,9 @@ nav{
     align-items: center;
     flex-direction: column;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-<<<<<<< HEAD
 }
 
 .shadow{
-=======
->>>>>>> d7cca73e5c4d4d895ecaf02ad21682a237c4c679
     display: flex;
     justify-content: center;
     align-items: center;
