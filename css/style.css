@@ -23,7 +23,10 @@ nav{
 
 /*Main*/
 .logo{
-    display: none;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 400px;
 }
 
 /*Part-1*/
