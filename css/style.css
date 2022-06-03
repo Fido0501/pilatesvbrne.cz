@@ -8,6 +8,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -23,7 +24,10 @@ nav{
 
 /*Main*/
 .logo{
-    display: none;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 400px;
 }
 
 /*Part-1*/
@@ -45,6 +49,7 @@ nav{
     color: white;
     text-align: center;
     font-size: 90px;
+    margin-bottom: 3rem;
 }
 
 /*Part-2*/
@@ -68,14 +73,14 @@ nav{
 
 .card{
     width: 350px;
-    height: 494px;
+    height: 580px;
     background-color: var(--sec-color);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    
+    margin: auto;
 }
 
 .card_txt{
@@ -97,7 +102,9 @@ nav{
       
 }
 .card_img{
-   align-self: center;
+    margin-top: 2rem;
+    align-self: center;
+    margin-bottom: 2rem;
 }
 
 
@@ -117,6 +124,13 @@ nav{
 }
 
 
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+}
+
 
 /*Button*/
 
@@ -135,6 +149,13 @@ nav{
     -webkit-user-select: none;
     margin-bottom: 1rem;
 }
+.justabox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: 5rem;
+}
 .button2{
     width: 120px;
     height: 60px;
@@ -147,20 +168,29 @@ nav{
     line-height: 60px;
     cursor: pointer;
     -webkit-user-select: none;
-    margin: auto;
+
 }
 
 /*Footer*/
 
 footer{
+    text-align: center;
+    background-color: var(--ter-color);
+    color: var(--pri-color);
 
 }
-
-.dividing_line{
-
+.kontakt{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.devider{
+    margin-top: 20px;
+    height: 1px;
+    background-color: #cacaca;
 }
 
 .copyright{
-    
+    padding-top: 10px;
+    font-size: 0.75rem;
 }
 
