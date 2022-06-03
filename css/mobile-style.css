@@ -76,7 +76,7 @@
     flex-direction: column;
     background-color: var(--sec-color);
     border-radius: 20px;
-    height: 350px;
+    height: 450px;
     width: 250px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -157,4 +157,4 @@ footer{
     font-size: 0.75rem;
 }
 
-/**/
+/* */
