@@ -58,10 +58,8 @@ nav{
 
 .cards_big_container {
     width: 100%;
-    height: fit-content;
     display: flex;
     justify-content: center;
-    align-self: stretch;
 }
 
 .cards {
@@ -72,25 +70,27 @@ nav{
     flex-wrap: wrap;
     gap: 2vw;
     justify-content: center;
-    align-self: stretch;
 }
 
 .card {
-    align-self: stretch;
     width: 15vw;
     padding: 1.5vw;
     background-color: var(--sec-color);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin: auto;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    transform: translate(-1px, -2px) rotate(-1deg);
+    transition: .2s;
 }
 
 .card_txt{
     text-align: center;
-    font-size: 1.25vw;
+    font-size: 1vw;
     margin-top: 1vw;
 }
 
@@ -105,23 +105,22 @@ nav{
 .card_img{
     margin-top: 1.5vw;
     align-self: center;
-    margin-bottom: 2rem;
     width: 10vw;
+    margin-bottom: 2rem;
 }
 
 /*Part-3*/
 .wave{
-    margin-top: 7rem;
+    margin-top: 5vw;
     width: 100%;
     height: 8vw;
-    margin-bottom: 0;
     font-size: 0;
 }
 
 .background{
     margin-top: -4px;
     width: 100%;
-    height: 800px;
+    height: 100vw;
     background-color: var(--sec-color);
 }
 
@@ -129,7 +128,8 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 300%;
+    font-size: 2vw;
+    font-weight: 600;
 }
 
 /*Button*/
@@ -142,22 +142,29 @@ nav{
     font-size: 1.25vw;
     font-family: arial;
     display: flex;
-    align-items: center;
     justify-content: center;
     cursor: pointer;
     -webkit-user-select: none;
 }
 
+.card_button {
+    margin-top: auto;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
 .button2{
-    width: 6vw;
-    height: 4vw;
+    padding: .80vw 1vw .80vw 1vw;
     background-color: var(--ter-color);
-    border-radius:20px;
+    border-radius: 1vw;
     color: white;
-    font-size: 24px;
+    font-size: 1.5vw;
     font-family: arial;
     text-align:center;
-    line-height: 60px;
     cursor: pointer;
     -webkit-user-select: none;
 }
@@ -174,11 +181,63 @@ nav{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 50%;
+    width: 60%;
+    gap: 1.5vw;
+    margin-top: 2vw;
 }
 
 .photos > img {
     width: 15vw;
+    transition: transform .2s;
+    padding: .2vw;
+    background-color: #fff;
+}
+.photos > img:hover {
+    transform: scale(1.5);
+}
+
+/* Reviews */
+.reviews_container {
+    margin-top: 2vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.width {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+    width: 80%;
+}
+
+.reviews {
+    padding: 2vw;
+    width: 30vw;
+    height: 18vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.reviews_header {
+    margin-top: 2vw;
+}
+
+.text {
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.name {
+    font-size: 1.5vw;
+    font-weight: 400;
+    align-self: flex-start;
+    margin-top: auto;
 }
 
 /*Footer*/
@@ -187,6 +246,9 @@ footer{
     text-align: center;
     background-color: var(--ter-color);
     color: var(--pri-color);
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .kontakt{
@@ -205,3 +267,8 @@ footer{
     font-size: 0.75rem;
 }
 
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    33% { transform: translate(-1px, -2px) rotate(-1deg); }
+    100% { transform: translate(0px, 0px) rotate( 0deg); }
+}
