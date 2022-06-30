@@ -269,33 +269,68 @@ a {
 /*Footer*/
 
 footer{
-    background-color: var(--ter-color);
     color: var(--pri-color);
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    margin-top: -3vw;
 }
 
-.footer_container {
+.svg {
+    background-color: #b3e7ff;
+}
+
+.footer-container {
+    background-color: var(--ter-color);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 2rem;
+    gap: 5rem;
+    padding: 2rem;
 }
 
-.devider{
-    margin-top: 20px;
-    height: 1px;
-    background-color: #cacaca;
+.logo-white {
+    max-width: 200px;
 }
 
 .copyright{
-    text-align: left;
-    padding-top: 10px;
-    font-size: 0.75rem;
+    text-align: center;
+    font-size: .5rem;
+    width: 100%;
+    background-color: var(--ter-color);
+    padding-bottom: .5rem;
+}
+
+.social-icon {
+    width: 20px;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.logo-white:hover {
+    transform: scale(1.05);
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    gap: .3rem;
+    margin-left: -.3rem;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: .8rem;
+    gap: .2rem;
+}
+
+.contacts-hd {
+    margin-bottom: .5rem;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 @keyframes shake {
