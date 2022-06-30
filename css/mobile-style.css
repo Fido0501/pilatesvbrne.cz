@@ -261,8 +261,7 @@ footer{
 .social-media {
     display: flex;
     flex-direction: row;
-    margin-left: -.3rem;
-    gap: .3rem;
+    gap: .4rem;
 }
 
 .footer-contacts {
